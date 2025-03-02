@@ -4,8 +4,8 @@ This Python script takes a **multi-page PDF** of scanned certificates and:
 
 1. Splits it into individual PDF pages  
 2. Extracts each student’s name via OCR  
-3. Renames each page’s PDF to `"{name}-{examBody}-{level}.pdf"` (depending on your script logic)  
-4. Optionally zips up all the resulting PDFs into a single archive  
+3. Renames each page’s PDF to `"{name}-{examBody}-{level}-{window}-{year}.pdf"`
+4. Zips up all the resulting PDFs into a single archive  
 
 ---
 
