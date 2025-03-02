@@ -170,7 +170,6 @@ def main():
         print(f"Error: The file '{input_pdf_path}' does not exist.")
         sys.exit(1)
     
-    # Continue with the rest of your logic here...
     print(f"Processing file: {input_pdf_path}")
 
     # Prompt the user
